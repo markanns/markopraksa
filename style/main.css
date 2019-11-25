@@ -50,6 +50,10 @@ body {
   display: none;
 }
 
+.nav-links {
+  color: white;
+}
+
 .active {
   display: block;
 }
