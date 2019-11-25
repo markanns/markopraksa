@@ -23,3 +23,22 @@ footer{
         text-transform: uppercase;
     }
 }
+
+@media screen and (min-width : 580px) and  (max-width : 767px) {
+   footer {
+       .proba{
+           text-align: center;
+       }
+   }
+}
+
+@media screen and (max-width : 579px)  {
+    footer {
+        .proba1{
+            text-align: center;
+        }
+        .social{
+            justify-content: space-evenly;
+        }
+    }
+ }

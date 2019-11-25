@@ -418,4 +418,21 @@ footer h3, footer p {
 footer h3 {
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 580px) and (max-width: 767px) {
+  footer .proba {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  footer .proba1 {
+    text-align: center;
+  }
+  footer .social {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
 /*# sourceMappingURL=main.css.map */
