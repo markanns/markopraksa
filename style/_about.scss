@@ -1,5 +1,5 @@
 .myAbout {
-    // height: 500px;
+    
     height:fit-content;
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
 
     .prvi{
-        // margin-left: 300px;
+        
         margin: auto;
         p{
             width: 300px;
@@ -24,8 +24,6 @@
     }
     .myImg {
         width: 300px;
-        // max-width: 100%;
-        // max-height: 100%;
     }
 
     button{
@@ -33,17 +31,6 @@
         border:none;
     }
 }
-
-// @media screen and (max-width: 350px) {
-//     .myAbout{
-//         height:fit-content;
-//         .prvi{
-//             margin: auto;
-
-//         }
-//     }
-// }
-
 
 @media screen and (min-width: 576px) {
     .myAbout{
