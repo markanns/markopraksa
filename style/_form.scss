@@ -26,3 +26,13 @@ form{
    }
    
 }
+
+@media screen and (max-width: 700px) {
+
+    .myForm{
+        height: fit-content;
+    }
+    .formBtn{
+        margin: 0 auto;
+    }
+}

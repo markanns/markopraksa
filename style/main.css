@@ -378,6 +378,17 @@ form {
   font-family: 'PT Serif', serif;
 }
 
+@media screen and (max-width: 700px) {
+  .myForm {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .formBtn {
+    margin: 0 auto;
+  }
+}
+
 footer {
   background-color: #292a2b;
   color: white;
