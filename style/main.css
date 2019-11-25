@@ -339,6 +339,12 @@ body {
   outline: 0;
 }
 
+@media screen and (max-width: 579px) {
+  .myBlogImg {
+    text-align: center;
+  }
+}
+
 form {
   width: 500px;
 }
@@ -420,13 +426,13 @@ footer h3 {
 }
 
 @media screen and (min-width: 580px) and (max-width: 767px) {
-  footer .proba {
+  footer .logoInFooter {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 579px) {
-  footer .proba1 {
+  footer .myFooterDiv {
     text-align: center;
   }
   footer .social {
