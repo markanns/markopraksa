@@ -1,0 +1,28 @@
+form{
+    width:500px;
+}
+
+.myForm{
+    height: 550px;
+    @include rulesForHeading;
+    background-color:#f8f9fb;
+
+    .firstName,.lastName,.phone,.email,.subject,.msg{
+        border-radius: 20px;
+    }
+
+   .msg{
+       resize:none;
+   }
+   .formBtn{
+    background-color: #db1e25;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 150px;
+    color:white;
+   }
+   h2{
+    font-family: 'PT Serif', serif;
+   }
+   
+}

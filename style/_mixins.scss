@@ -1,0 +1,20 @@
+@mixin rulesForHeading {
+
+    h2 {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    hr {
+        width: 50px;
+        border-top: 1px solid red;
+    }
+}
+
+@mixin rulesForBtn{
+    background-color: #db1e25;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 140px;
+}

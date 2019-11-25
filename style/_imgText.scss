@@ -1,0 +1,49 @@
+
+.bigImg {
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bckg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    .heading {
+        position: relative;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        h1{
+            font-family: 'PT Serif', serif;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    .myBtn{
+        background: transparent;
+        color: white;
+        border-radius: 20px;
+        padding: 5px;
+        width: 140px;
+        &:focus {outline:0;}
+        
+    }
+    .arrow{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    .bigImg{
+        .arrow{
+            top:80%;
+            left:47%;
+        }
+    }
+
+}

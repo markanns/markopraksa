@@ -1,0 +1,44 @@
+.myOffer{
+    background-color:#f8f9fb ;
+    height: 500px;
+    
+   @include rulesForHeading;
+   h2{
+    font-family: 'PT Serif', serif;
+   }
+   h5,p{
+    font-family: 'Open Sans', sans-serif;
+   }
+}
+
+.myDeck{
+
+    button{
+        color: red;
+        background-color: #fcf0f1;
+        border-radius: 20px;
+        padding: 5px;
+        width: 140px;
+        border: none;
+        text-transform: uppercase;
+    }
+    .card{
+        text-align: center;
+        border: none;
+        box-shadow: 10px 10px 5px lightgrey;
+    }
+    img{
+        margin: 0 auto;
+        width: 90px;
+        height: 90px;
+        padding-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .myOffer{
+        height: fit-content;
+    }
+
+}
