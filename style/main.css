@@ -237,6 +237,15 @@ body {
   }
 }
 
+@media screen and (max-width: 579px) {
+  .prvi {
+    padding-top: 30px;
+  }
+  .myAboutDiv {
+    margin: 0 auto;
+  }
+}
+
 .myOffer {
   background-color: #f8f9fb;
   height: 500px;
