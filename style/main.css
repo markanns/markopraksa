@@ -248,7 +248,9 @@ body {
 
 .myOffer {
   background-color: #f8f9fb;
-  height: 500px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .myOffer h2 {
