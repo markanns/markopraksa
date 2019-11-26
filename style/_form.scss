@@ -9,6 +9,7 @@ form{
 
     .firstName,.lastName,.phone,.email,.subject,.msg{
         border-radius: 20px;
+        
     }
 
    .msg{
@@ -26,6 +27,7 @@ form{
    }
    
 }
+
 
 @media screen and (max-width: 400px) {
     form{
