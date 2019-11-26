@@ -9,6 +9,18 @@
     }
 }
 
+.myDropBtn{
+    margin-top: 14px;
+    padding: 0;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    &:hover{
+        color: red;
+    }
+    &:focus{
+        box-shadow: none;}
+}
 .main-nav {
     list-style-type: none;
     background-color: gray;
@@ -34,7 +46,13 @@
     color: rgba(255,255,255,0.8);
     
 }
+.myAngebot{
+    display:block;
+}
 
+.dropdown{
+    display:none;
+}
 .main-nav {
     list-style-type: none;
     display: none;
@@ -60,10 +78,18 @@
     font-size: 24px;
     }
     
+   
+    
   }
 
   @media screen and (min-width: 850px) {
   
+    .myAngebot{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
     .navbar1 {
         display: flex;
         justify-content: space-around;
@@ -85,9 +111,9 @@
         }
     }
     }
-    .main-nav li {
-        margin: 0;
-    }
+    // .main-nav li {
+    //     margin: 0;
+    // }
     .nav-links {
         margin-left: 40px;
     }

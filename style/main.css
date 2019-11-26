@@ -16,6 +16,23 @@ body {
   color: gray;
 }
 
+.myDropBtn {
+  margin-top: 14px;
+  padding: 0;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.myDropBtn:hover {
+  color: red;
+}
+
+.myDropBtn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .main-nav {
   list-style-type: none;
   background-color: gray;
@@ -42,6 +59,14 @@ body {
   top: 10px;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.myAngebot {
+  display: block;
+}
+
+.dropdown {
+  display: none;
 }
 
 .main-nav {
@@ -74,6 +99,12 @@ body {
 }
 
 @media screen and (min-width: 850px) {
+  .myAngebot {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
   .navbar1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -102,9 +133,6 @@ body {
   .navbar1 .main-nav a:hover {
     color: red;
     text-decoration: none;
-  }
-  .navbar1 .main-nav li {
-    margin: 0;
   }
   .navbar1 .nav-links {
     margin-left: 40px;

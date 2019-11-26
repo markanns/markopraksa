@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7d6de2c748.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
@@ -23,7 +26,25 @@
             <div class="logo"><img src="./images/logo.jpg" alt=""></div>
             <ul class="main-nav" id="js-menu">
                 <li><a href="#" class="nav-links">Home</a></li>
-                <li><a href="#" class="nav-links">Unser angebot</a></li>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle myDropBtn" type="button" data-toggle="dropdown">Unser angebot
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Ausbildung</a></li>
+                      <li><a href="#">Marketing</a></li>
+                      <li><a href="#">Gastro-Austattung</a></li>
+                      <li><a href="#">Consulting</a></li>
+                      <li><a href="#">Planung&Konzeption</a></li>
+                    </ul>
+                  </div>
+
+
+
+
+
+
+
+                <li ><a href="#" class="nav-links myAngebot">Unser angebot</a></li>
                 <li><a href="#" class="nav-links">Downloads</a></li>
                 <li><a href="#" class="nav-links">blog</a></li>
                 <li><a href="#" class="nav-links">kontakt</a></li>
