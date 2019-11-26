@@ -19,27 +19,36 @@ $('#submit').click(function (e) {
     $(".error").remove();
 
     if (first_name.length < 1 ) {
-        $('#name').after('<span class="error" >Ovo polje je obavezno</span>');
+        $('#name').after('<span class="error" >Please fill out this field</span>');
        
-        return false;
-    }else if( last_name.length < 1){
-        $('#lastName').after('<span class="error" >Ovo polje je obavezno</span>');
         return false;
     }
     else {
         var reg = /^[a-zA-ZČčĆćĐđŠšŽžАаБбВвГгДдЂђЕеЖжЗзИиЈјКкЛлЉљНнмМЊњОоПпРрСсТтЋћУуФфХхЦцчЧЏџШш\s]+$/;
         var validName = reg.test(first_name);
         if (!validName) {
-            $('#name').after('<span class="error">Unesite ime u odgovarajucem formatu</span>');
+            $('#name').after('<span class="error">Please insert right format</span>');
+            return false;
+        }
+    } if( last_name.length < 1){
+        $('#lastName').after('<span class="error" >Please fill out this field</span>');
+        return false;
+    }
+    else {
+        var reg = /^[a-zA-ZČčĆćĐđŠšŽžАаБбВвГгДдЂђЕеЖжЗзИиЈјКкЛлЉљНнмМЊњОоПпРрСсТтЋћУуФфХхЦцчЧЏџШш\s]+$/;
+        var validLastName = reg.test(last_name);
+        if (!validLastName) {
+            $('#lastName').after('<span class="error">Please insert right format</span>');
             return false;
         }
     }
+    
     if (phone.length < 1) {
-        $('#phone').after('<span class="error">Ovo polje je obavezno</span>');
+        $('#phone').after('<span class="error">Please fill out this field</span>');
         return false;
     }
     if (email.length < 1) {
-        $('#email').after('<span class="error">Ovo polje je obavezno</span>');
+        $('#email').after('<span class="error">Please fill out this field</span>');
         return false;
     } else {
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -51,12 +60,12 @@ $('#submit').click(function (e) {
 
     }
     if (subject.length < 1) {
-        $('#sub').after('<span class="error">Ovo polje je obavezno</span>');
+        $('#sub').after('<span class="error">Please fill out this field</span>');
         return false;
     }
     
     if (msg.length < 1) {
-        $('#message').after('<span class="error">Ovo polje je obavezno</span>');
+        $('#message').after('<span class="error">Please fill out this field</span>');
         return false;
     }
 });  
