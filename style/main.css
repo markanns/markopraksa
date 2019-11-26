@@ -72,6 +72,7 @@ body {
 .main-nav {
   list-style-type: none;
   display: none;
+  padding-left: 0;
 }
 
 .nav-links {
