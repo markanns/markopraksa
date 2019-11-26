@@ -1,56 +1,63 @@
 .myAbout {
-    
-    height:fit-content;
+
+    height: fit-content;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 
-    .prvi{
-        
+    .prvi {
+
         margin: auto;
-        p{
+
+        p {
             width: 300px;
             font-family: 'Open Sans', sans-serif;
         }
-        h2{
+
+        h2 {
             font-family: 'PT Serif', serif;
         }
     }
+
     hr {
         width: 50px;
         border-top: 1px solid red;
         margin-left: 0;
     }
+
     .myImg {
-        width: 300px;
+        width: 450px;
     }
 
-    button{
+    button {
         @include rulesForBtn;
-        border:none;
+        border: none;
     }
 }
 
 @media screen and (min-width: 576px) {
-    .myAbout{
-        height:500px;
+    .myAbout {
+        height: 500px;
         flex-wrap: nowrap;
-        .prvi{
+
+        .prvi {
 
             margin: auto;
         }
     }
-    .myImg{
+
+    .myImg {
         width: 100px;
     }
 }
 
-@media screen and (max-width : 579px)  {
-    .prvi{
+@media screen and (max-width : 579px) {
+    .prvi {
         padding-top: 30px;
     }
-    .myAboutDiv{
-        margin:0 auto;
+
+    .myAboutDiv {
+        margin: 0 auto;
     }
 }

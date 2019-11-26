@@ -93,6 +93,7 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     background-color: white;
+    padding-right: 20px;
   }
   .navbar1 .main-nav a {
     text-transform: uppercase;
@@ -109,6 +110,7 @@ body {
     margin-left: 40px;
   }
   .navbar1 .logo {
+    padding-left: 50px;
     margin-top: 0;
   }
   .navbar1 .logo img {
@@ -169,7 +171,6 @@ body {
 
 @media screen and (min-width: 576px) {
   .bigImg .arrow {
-    top: 80%;
     left: 47%;
   }
 }
@@ -211,7 +212,7 @@ body {
 }
 
 .myAbout .myImg {
-  width: 300px;
+  width: 450px;
 }
 
 .myAbout button {
