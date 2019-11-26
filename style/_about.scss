@@ -3,7 +3,7 @@
     height: fit-content;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
     .prvi {
@@ -27,7 +27,7 @@
     }
 
     .myImg {
-        width: 300px;
+        width: 360px;
     }
 
     button {
