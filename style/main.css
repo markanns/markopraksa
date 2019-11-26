@@ -42,7 +42,6 @@ body {
   top: 10px;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
 }
 
 .main-nav {
@@ -70,6 +69,7 @@ body {
   }
   .navbar-toggle {
     right: 50px;
+    font-size: 24px;
   }
 }
 
@@ -398,6 +398,13 @@ form {
 
 .myForm h2 {
   font-family: 'PT Serif', serif;
+}
+
+@media screen and (max-width: 400px) {
+  form {
+    width: 300px;
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 700px) {

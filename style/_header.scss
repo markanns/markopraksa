@@ -32,7 +32,7 @@
     top: 10px;
     cursor: pointer; 
     color: rgba(255,255,255,0.8);
-    font-size: 24px;
+    
 }
 
 .main-nav {
@@ -56,7 +56,8 @@
         }
     }
    .navbar-toggle {
-    right:50px
+    right:50px;
+    font-size: 24px;
     }
     
   }
