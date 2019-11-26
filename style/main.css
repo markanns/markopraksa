@@ -234,6 +234,10 @@ body {
   font-family: 'PT Serif', serif;
 }
 
+.myAbout .prvi button {
+  outline: none;
+}
+
 .myAbout hr {
   width: 50px;
   border-top: 1px solid red;
@@ -309,6 +313,7 @@ body {
   width: 140px;
   border: none;
   text-transform: uppercase;
+  outline: none;
 }
 
 .myDeck .card {
@@ -423,6 +428,8 @@ form {
   border-radius: 20px;
   width: 150px;
   color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .myForm h2 {

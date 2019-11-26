@@ -54,7 +54,7 @@ $('#submit').click(function (e) {
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         var validEmail = re.test(email);
         if (!validEmail) {
-            $('#email').after('<span class="error">Unesite odgovarajucu email adresu</span>');
+            $('#email').after('<span class="error">Enter valid format</span>');
             return false;
         }
 
