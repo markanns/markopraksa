@@ -34,7 +34,15 @@
         position: absolute;
         top: 75%;
         left: 50%;
+
     }
+    .scale-up-center {
+        -webkit-animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+                animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+    }
+
+    
+      
 }
 
 

@@ -12,7 +12,8 @@ footer{
     .social {
         display: flex;
         justify-content: space-between;
-        color:lightgray
+        color:lightgray;
+        a { color: inherit; }
     }
 
     h3,p{
