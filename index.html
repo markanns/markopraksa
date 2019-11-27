@@ -12,6 +12,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7d6de2c748.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     
@@ -189,11 +190,12 @@
         <hr>
         <div class="container">
             <div class="row  justify-content-center">
-                <form action="#">
+                <form  id ='proba'>
                     <div class="form-row">
                         <div class="form-group col-lg-6 col-md-6 ">
                             <input type="text" class="form-control firstName" id="name" placeholder="First name">
                         </div>
+                       
                         <div class="form-group col-lg-6 col-md-6">
                             <input type="text" class="form-control lastName" id="lastName" placeholder="Last name">
                         </div>
@@ -216,7 +218,8 @@
                         <textarea class="form-control msg" rows="5" id="message" placeholder="Message"></textarea>
                     </div>
                     <div class="row justify-content-end">
-                        <input type="submit" class="btn  formBtn" id="submit" value="Send">
+                        <!-- <input type="submit" class="btn  formBtn" id="submit" value="Send"> -->
+                        <button type="submit">Register</button>
                     </div>
                 </form>
             </div>
