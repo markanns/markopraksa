@@ -33,7 +33,7 @@
     .arrow{
         position: absolute;
         top: 75%;
-        left: 47%;
+        left: 44%;
 
     }
     .scale-up-center {
@@ -51,6 +51,17 @@
         .arrow{
             position: absolute;
            top:140%;
+            left:47%;
+        }
+    }
+
+}
+
+@media screen and (min-width:801px) {
+    .bigImg{
+        .arrow{
+            position: absolute;
+           top:70%;
             left:47%;
         }
     }
