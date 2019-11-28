@@ -38,3 +38,10 @@
         text-align: center;
     }
  }
+
+ @media screen and (min-width : 580px) and(max-width:767px)  {
+    .myRow{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+ }
